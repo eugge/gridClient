@@ -1,10 +1,10 @@
 ## gridClient
-*by [@mkdir](https://twitter.com/rikval)*
+*by [@mkdir404](https://twitter.com/rikval)*
 
 ## What is this?
 A simple project where you insert, delete, update data, grid and implementing a fast search.
 
-## Try:
+## Try it:
 
 [gridClient](http://www.sabregmc.com/iFactura2/index.php/altas/clientes)
 
