@@ -1,21 +1,11 @@
-## console.meme
+## gridClient
 *by [@escusado](https://twitter.com/escusado)*
 
 ## What is this?
-A stupid express app and a js script to print memes in the console.
+Simple project on codeigniter + search grid jquery plugin.
 
 ![console.meme](http://i.imgur.com/0fh8eZk.png)
 
-## Usage
-Paste this in your console or html document.
-```
-console.meme=function(e,t,n,r){var i="http://lit-atoll-9603.herokuapp.com/api/v1/";if(typeof r==="undefined"){r=200}var s=i+e+"/"+r+"/"+encodeURIComponent(t)+"/"+encodeURIComponent(n);var o="background-image: url("+s+");";o+="background-repeat: no-repeat;";o+="background-position: center center;";r=Math.floor(r/2);o+="padding: "+r+"px "+r+"px; background-size: 100%;";var u="";var a=Math.ceil(r/14)+2;while(a--){u+="\n"}console.log("%c %c"+u,o,"background: none;")}
-console.meme('grumpy-cat', 'paste this in my console?...', '...is this it?');
-```
-
-Alternatilvely you can set a size too :
-``` javascript
-console.meme('nobody-got-time', 'Write an extra parameter?', 'Ain t Nobody got time fo that', 300);
 ```
 
 ## Currently supported
